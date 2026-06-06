@@ -5,6 +5,9 @@ FastShip Logistics operates ten warehouse locations across the United States and
 
 This project builds the analytical foundation to answer those concerns, covering 19 specific business questions across cost analysis, delivery performance, operational insights, and problem tracking as well as offer recommendations.
 
+<img width="10066" height="5766" alt="Performance Overview" src="https://github.com/user-attachments/assets/c09dd4a7-9425-4d2f-abff-fa7bba1762b9" />
+
+
 ### Dataset
 
 The dataset contains 2,000 shipment records with the following fields:
@@ -70,6 +73,24 @@ The inactive relationship allows delivery-date-based analysis without disrupting
 **Problem tracking:**
 - Problem Rate
 - Avg Cost by Carrier
+
+### Dashboard
+
+The dashboard is built across two pages in Excel using pivot charts, slicers, and linked KPI cards.
+
+**Page 1: Performance Overview**
+
+Covers the executive summary view with five KPI cards (Total Shipments, Total Shipping Cost, On-Time Delivery Rate, Problem Rate, Avg Transit Days), each with a sparkline showing the monthly trend. Charts include: monthly shipment volume and cost trend, shipment status breakdown (donut), top destination cities, top 5 warehouses by deliveries, and monthly delayed shipments trend.
+
+<img width="10066" height="5766" alt="Performance Overview" src="https://github.com/user-attachments/assets/7158ba5a-83a8-4822-b99f-a3dc85677dd3" />
+
+
+**Page 2: Carrier and Warehouse Analysis**
+
+Covers the deep-dive view with four KPI cards (Most Expensive Carrier, Worst On-Time Carrier, Most Problematic Warehouse, Avg Cost Per Mile). Charts include: carrier performance comparing avg cost per shipment vs on-time delivery rate, lost shipments by carrier, warehouse on-time delivery ranking, and carrier delivery efficiency by avg transit days.
+
+<img width="10066" height="5766" alt="C W Analysis" src="https://github.com/user-attachments/assets/9ab9d6cf-2849-42ad-9c16-c1249e883c62" />
+
 
 ### Key Findings
 
