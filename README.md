@@ -26,6 +26,7 @@ The dataset contains 2,000 shipment records with the following fields:
 | Distance_miles | Distance travelled in miles |
 | Transit_Days | Number of days in transit |
 
+[Link to Dataset](https://github.com/timiczn/-FastShip-Logistics-Operations-Performance-Analysis/blob/main/logistics_shipments_dataset.csv)
 ### Tools Used
 
 The entirety of this project was built uisng Microsoft Excel
