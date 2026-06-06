@@ -1,26 +1,9 @@
-# -FastShip-Logistics-Operations-Performance-Analysis
-
-An Excel project analysing 2,000 shipment records for a mid-sized logistics company across a full operational year. The goal was to build an interactive Excel dashboard that gives the operations team visibility into shipping costs, delivery performance, carrier efficiency, and problem areas across the network.
-
-
-### Table of Contents
-
-- [Project Background](#project-background)
-- [Dataset](#dataset)
-- [Tools Used](#tools-used)
-- [Data Model](#data-model)
-- [DAX Measures](#dax-measures)
-- [Dashboard](#dashboard)
-- [Key Findings](#key-findings)
-- [Recommendations](#recommendations)
-- [Files in This Repository](#files-in-this-repository)
-
 
 ### Project Overview
 
 FastShip Logistics operates ten warehouse locations across the United States and partners with seven carriers: UPS, FedEx, DHL, USPS, Amazon Logistics, OnTrac, and LaserShip. The operations manager, Sarah Chen, flagged concerns about rising shipping costs, inconsistent delivery performance, and an uptick in lost and returned packages during 2023.
 
-This project builds the analytical foundation to answer those concerns, covering 19 specific business questions across cost analysis, delivery performance, operational insights, and problem tracking.
+This project builds the analytical foundation to answer those concerns, covering 19 specific business questions across cost analysis, delivery performance, operational insights, and problem tracking as well as offer recommendations.
 
 ### Dataset
 
@@ -42,9 +25,7 @@ The dataset contains 2,000 shipment records with the following fields:
 
 ### Tools Used
 
-- Microsoft Excel (Power Pivot, Power Query, DAX)
-- Excel Pivot Tables
-- Excel Charts and Slicers
+The entirety of this project was built uisng Microsoft Excel
 
 ### Data Model
 
@@ -59,7 +40,6 @@ The model consists of two tables connected by date relationships:
 - Inactive relationship: `Calendar[Date]` to `Shipments[Delivery_Date]` (one-to-many), activated on demand using `USERELATIONSHIP()` in specific measures
 
 The inactive relationship allows delivery-date-based analysis without disrupting the default shipment-date context across the rest of the model.
-
 
 ### DAX Measures
 
